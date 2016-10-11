@@ -166,7 +166,7 @@ a:focus, button:focus, .btn:focus,
     padding: 0;
 }
 
-.before-after,
+/*.before-after,
 .before {
     position: relative;
 }
@@ -201,7 +201,7 @@ a:focus, button:focus, .btn:focus,
     border-right: 25px solid transparent;
     border-left: 25px solid transparent;
     border-top: 30px solid #fff;
-}
+}*/
 
 .bg-white {
 	background-color:#FFF;
@@ -230,6 +230,8 @@ a:focus, button:focus, .btn:focus,
 }
 
 .body-multiple {
+    background: url(../images/noraza/slider/slider.jpg);
+    background-size: contain;
     position: relative;
     z-index: 1;
 }
@@ -273,12 +275,14 @@ a:focus, button:focus, .btn:focus,
  ========================================================================== */
 
 #navigation .navbar {
-    min-height:0;
-    margin-bottom: 0;
+    background: url(../images/noraza/slider/menu.png);
     border: 0;
+    height: 114px;
+    margin-bottom: 0;
+    min-height:0;
 }
 
-#navigation .navbar:before {
+/*#navigation .navbar:before {
     position: absolute;
     content: "";
     top: 0;
@@ -300,7 +304,7 @@ a:focus, button:focus, .btn:focus,
     border-left: 25px solid transparent;
     border-top: 30px solid #fff;
     z-index: -1;
-}
+}*/
 
 #navigation .navbar-brand {
     margin-right: 90px;
@@ -4362,6 +4366,7 @@ textarea.form-control {
  ========================================================================== */
 
 .footer {
+    background: url(../images/noraza/slider/menu.png);
     padding-top: 20px;
     padding-bottom: 10px;
 }
