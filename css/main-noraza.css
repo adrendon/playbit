@@ -232,7 +232,7 @@ a:focus, button:focus, .btn:focus,
 .body-multiple {
     background: url(../images/noraza/slider/slider.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     position: relative;
     z-index: 1;
 }
