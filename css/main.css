@@ -273,9 +273,11 @@ a:focus, button:focus, .btn:focus,
  ========================================================================== */
 
 #navigation .navbar {
-    min-height:0;
-    margin-bottom: 0;
+    background: url(../images/noraza/slider/menu.png);
     border: 0;
+    height: 128px;
+    margin-bottom: 0;
+    min-height:0;
 }
 
 /*#navigation .navbar:before {
