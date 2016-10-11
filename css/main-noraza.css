@@ -4367,24 +4367,36 @@ textarea.form-control {
  ========================================================================== */
 
 .footer {
-    background: url(../images/noraza/slider/menu.png);
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
+.footer:before {
+    content: '';
+    background: url(../images/noraza/slider/menu.png);
+    width: 100%;
+    bottom: 0;
+    height: 114px;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
 .copyright {
+    color: #fff;
     font-size: 14px;
     text-transform: uppercase;
     float: left;
+    position: relative;
 }
 
 .copyright a {
-    color: #ed145b;
+    color: #fff;
     font-family: 'allerbold';
 }
 
 .footer-memu {
     float: right;
+    position: relative;
 }
 
 .footer-memu li {
@@ -4397,7 +4409,7 @@ textarea.form-control {
 
 .footer-memu li a {
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     font-size: 14px;
     line-height: 30px;
 }
